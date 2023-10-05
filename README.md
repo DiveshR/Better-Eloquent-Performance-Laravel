@@ -15,12 +15,3 @@ Laravel Offical : https://laravel.com/docs/10.x/
 * Optimizing CPU and Queries:
   ... and more.
 
-```php
-//Artisan command to run test.
-php artisan test
-```
-
-```php
-//Artisan command to create new test.
-php artisan make:test ProductTest
-```
