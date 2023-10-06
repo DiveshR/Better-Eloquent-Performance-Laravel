@@ -15,3 +15,18 @@ Laravel Offical : https://laravel.com/docs/10.x/
 * Optimizing CPU and Queries:
   ... and more.
 
+# Setting up laravel-breeze the starter kit.
+
+* Installing laravel breeze
+```php
+composer require laravel/breeze --dev
+//After install run artisan command for laravel breeze basic auth system 
+php artisan breeze:install
+php artisan migrate
+
+//npm for css js assets
+npm install
+//for compile assets
+npm run dev
+
+```
