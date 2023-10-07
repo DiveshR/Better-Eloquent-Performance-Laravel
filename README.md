@@ -38,6 +38,8 @@ npm run dev
 $posts = Post::all();
 
 //Result
+
+<img width="1280" alt="Screenshot 2023-10-07 at 8 00 06 PM" src="https://github.com/DiveshR/Better-Eloquent-Performance-Laravel/assets/25860707/0f493519-2b6d-4b5f-9228-eef3353f60bb">
 ```
 # Eager loading
  * To resolve N+1 Query Problem
@@ -48,5 +50,9 @@ $posts = Post::with('user')->get();
 // Other Way
 $posts = Post::all();
 $posts->load('user');
+
+//Result
+
+<img width="1280" alt="Screenshot 2023-10-07 at 8 04 52 PM" src="https://github.com/DiveshR/Better-Eloquent-Performance-Laravel/assets/25860707/a52830b3-08b9-4dd4-ac8a-98fbf860d838">
 
 ```
