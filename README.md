@@ -30,3 +30,23 @@ npm install
 npm run dev
 
 ```
+# N+1 Query Problem
+
+```php
+//To avoide duplication of query when relationship
+//N+1 Query Problem
+$posts = Post::all();
+
+//Result
+```
+# Eager loading
+ * To resolve N+1 Query Problem
+```php
+//Correct way with eager loading with relationship table
+$posts = Post::with('user')->get();
+
+// Other Way
+$posts = Post::all();
+$posts->load('user');
+
+```
